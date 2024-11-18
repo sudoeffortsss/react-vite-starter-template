@@ -4,7 +4,7 @@ import React from 'react';
 import { useLocation } from 'react-router-dom';
 
 function NotFound() {
-  const location = useLocation();
+  const location = useLocation();  // Hook to get the current path (URL)
 
   return (
     <div>
