@@ -1,8 +1,8 @@
-Error404.jsx
+NotFound.jsx
 
 import { useLocation } from 'react-router-dom';
 
-export default function Error404() {
+export default function NotFound() {
   const location = useLocation();
   return (
     <div>
